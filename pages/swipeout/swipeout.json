@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "swipeout": "/components/swipeout/swipeout",
+    "swipeout-item": "/components/swipeout/swipeoutItem"
+  }
+}

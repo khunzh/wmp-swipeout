@@ -1,0 +1,10 @@
+<view>
+  <view class='list-item'>
+    <swipeout>
+       <swipeout-item identifier="{{index}}" wx:for="{{list}}" wx:key="{{index}}" bindrighttap="righttap" bindcontenttap="contenttap">
+         <view slot="right" class="del-btn">删除</view>
+         <view slot="content" class="content">{{item.text}}</view>
+       </swipeout-item>
+    </swipeout>
+  </view>
+</view>

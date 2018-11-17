@@ -1,0 +1,3 @@
+.wm-swipeout-wrap{
+  position: relative;
+}

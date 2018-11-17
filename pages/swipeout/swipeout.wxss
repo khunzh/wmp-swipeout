@@ -1,0 +1,12 @@
+.del-btn{
+  width: 100rpx;
+  height: 100%;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+.content{
+  padding: 10rpx;
+  font-size: 16px;
+}

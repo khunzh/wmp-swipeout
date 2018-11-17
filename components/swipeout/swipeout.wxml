@@ -1,0 +1,3 @@
+<view class="wm-swipeout-wrap">
+  <slot></slot>
+</view>

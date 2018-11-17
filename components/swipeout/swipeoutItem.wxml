@@ -1,0 +1,12 @@
+<view class="wm-swipeout-item" bind:touchstart="_onTouchStart" bind:touchmove="_onTouchMove" bind:touchend="_onTouchEnd" wx:if="{{!hasDeleted}}">
+  <!-- 右部按钮 -->
+  <view class="wm-swipeout-item-right {{animated ? 'animated': ''}}" style='{{rightStyle}}' bindtap='_onRightTap'>
+    <view class="right-wrap">
+      <slot name="right"></slot>
+    </view>
+  </view>
+  <!-- 显示的内容 -->
+  <view class="mp-swipeout-item-content {{animated ? 'animated': ''}}" style='{{contentStyle}}' bindtap='_onContentTap'>
+    <slot name="content"></slot>
+  </view>
+</view>
